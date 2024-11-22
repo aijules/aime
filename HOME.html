@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+</title>
+<link rel="stylesheet" href="project.CSS"
+
+</head>
+<body>
+<header>
+    <div>
+    <h2>Bake Hub Coffee Bar & Bakery</h2>
+       </div> 
+    </header>
+    <nav>
+        <div>
+            <h1 id="h1a"> Warmly Welcome To Bake Hub !</h1>
+            
+            
+        </div>
+        <div id="links">
+            <a href="HOME.HTML">HOME</a>
+            <a href="About us.html">About us</a>
+        
+            
+           
+            
+            <a href="Contact-info.html">Contact-info</a>
+            
+     
+        </div>
+    </nav>
+
+    <div id="cover" style="height: 700px;">
+        <img width="100%" height="700px" src="PIC1.jpg" alt="">
+
+
+    </div>
+
+
+<div id="section">
+
+<div id="left" style="width: 50%;">
+    <h1>WELCOME TO BAKE HUB  COFFEE BAR AND BAKERY</h1>
+    <p >"We aim at baking fresh ,quality goods that bring joy to our customers every day "</p>
+   
+<pre>at bake hub coffee bar and bakery we believe in creating a welcoming space for everyone<br>
+to enjoy fresh quality baked goods and delicious coffee<br>
+our expertly crafted pasteries breads and cakes are made for you.s</pre>
+<P>
+    <img width="90%" src="PIC2.JPG" alt="">
+    </P>
+    <P>
+<img width="90%" width="40%"src="PIC3.JPG" alt="">
+</P>
+<P>
+<img width="30%" height="10%" src="PIC8.jpg" alt="">
+</P>
+    
+</div>
+
+<div id="right" style="width: 100%;">
+    
+        <h2>Featured Products & Prices</h2>
+        <div id="box1"style="border: 1px solid #ddd; padding: 10px; margin: 10px;">
+                <h2>Signature Sourdough Bread : $6</h2>
+                <pre>A crispy, naturally leavened bread with a soft flavorful interior.</pre>
+                <label for="quantity1">Quantity:</label>
+                <select id="quantity1" onchange="calculateTotal('quantity1', 6, 'total1')">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <button onclick="placeOrder('Signature Sourdough Bread', document.getElementById('quantity1').value)">
+                    Place Order
+                </button>
+                <p>Total: $<span id="total1">6</span></p>
+
+            </div>
+    
+            <div id="box2" style="border: 1px solid #ddd; padding: 10px; margin: 10px;">
+                <h2>Seasonal Fruit Tart : $4.50 per slice </h2>
+                <pre>Fresh tart made with seasonal fruits. Each item is crafted with care to meet the highest standard.</pre>
+                <label for="quantity2">Quantity:</label>
+                <select id="quantity2" onchange="calculateTotal('quantity2', 4.5, 'total2')">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <button onclick="placeOrder('Seasonal Fruit Tart', document.getElementById('quantity2').value)">
+                    Place Order
+                </button>
+                <p>Total: $<span id="total2">4.5</span></p>
+
+
+            </div>
+    
+            <div id="box3" style="border: 1px solid #ddd; padding: 10px; margin: 10px;">
+                <h2>Chocolate Ganache Cake : $7</h2>
+                <pre>A rich chocolate cake topped with smooth ganache.</pre>
+                <label for="quantity3">Quantity:</label>
+                <select id="quantity3"onchange="calculateTotal('quantity3', 7, 'total3')">
+                    >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <button onclick="placeOrder('Chocolate Ganache Cake', document.getElementById('quantity3').value)">
+                    Place Order
+                </button>
+                <p>Total: $<span id="total3">7</span></p>
+
+            </div>
+    
+            <div id="box4" style="border: 1px solid #ddd; padding: 10px; margin: 10px;">
+                <h2>Freshly Brewed Coffee : $10</h2>
+                <pre>Rich and aromatic coffee brewed fresh daily for the perfect pick-me-up. Offering personalized service and a cozy atmosphere.</pre>
+                <label for="quantity4">Quantity:</label>
+                <select id="quantity4"onchange="calculateTotal('quantity4', 10, 'total4')">
+                
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <button onclick="placeOrder('Freshly Brewed Coffee', document.getElementById('quantity4').value)">
+                    Place Order
+                </button>
+                <p>Total: $<span id="total4">10</span></p>
+
+            </div>
+    
+        </div>
+    </div>
+    
+    <script>
+    function placeOrder(product, quantity) {
+        alert(`You ordered ${quantity}  ${product} successfuly.`);
+    }
+    </script>
+    
+</div>
+
+<div id="footer">
+    <div id="col">
+        <h2>About us</h2>
+        <pre>welcome to  Bake Hub cofee bar and bakery  website</pre>
+<pre>where we believe in baking high quality products</pre>
+        <button>READ MORE</button>
+    </div>
+    <div id="col">
+        <h2>Client information</h2>
+        <ul>
+            <li>order process</li>
+            <li>delivery and pickup options</li>
+            <li>ingredient and allergen information</li>
+            <li>special offer and royality program</li>
+            <li>customer support</li>
+            <li>event catering & custom cakes</li>
+
+        </ul>
+    </div>
+    <div id="col">
+        <h2>Customer services</h2>
+        <ul>
+            <li>support forums</li>
+            <li>community area</li>
+            <li>FAQ</li>
+            <li>customer feedback</li>
+            <li>comunity agent</li>
+            <li>terms&condition</li>
+        </ul>
+    </div>
+    <div id="col">
+        <h2>Contact-info</h2>
+        <pre>kanombe, kk345rd</pre>
+        <pre>Rwanda</pre>
+        <pre>support@bakehub.com</pre>
+        <br>
+        <pre>open:24/7</pre>
+        
+    </div>
+    <div id="col"></div>
+</div>
+
+<div id="foot" style="padding: 0 60px 30px;" >
+    <p>Copyright 2016 by resigned <b>bake hub coffee bar and bakery  </b>| ALL rights</p>
+</div>
+<script>
+function calculateTotal(quantityId, pricePerUnit, totalId) {
+    const quantity = document.getElementById(quantityId).value;
+    const total = quantity * pricePerUnit;
+    document.getElementById(totalId).innerText = total.toFixed(2);
+}
+
+
+    const button = document.getElementById('button1')
+    box1.addEventListener('place order',() => {
+        alert("order placed successfuly😊")
+    })
+</script>
+
+</body>
+</html>

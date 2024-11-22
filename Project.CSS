@@ -1,0 +1,191 @@
+
+
+
+header {
+    background-color: #3e2723;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 600px;
+}
+
+h1{
+    font-size: 15px;
+    color: white;
+    display: inline;
+    padding-right: 20px;
+}
+ #h1a{
+    color:#3e2723;
+    font-size: medium;
+}
+
+span{
+    color: gray;
+}
+
+#leftside{
+    display: flex;
+} 
+
+
+#rightside{
+    display: flex;
+}
+
+#rightside h1{
+    margin-left: 40px;
+}
+
+#logo h1{
+    color: #3e2723;
+    font-size: 24px;
+    font-family: fantasy;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 10px;
+    
+}
+
+#links a{
+padding-left:30px;
+text-decoration: none;
+color:black;
+font-family: sans-serif;
+font-size: 14px;
+}
+
+#links a:active{
+    color:orange;
+    }
+#left h1{
+    color: #795548;
+    font-size:  revert;
+    font-family: auto;
+
+
+}
+
+#left p{
+font-size: 30px;
+    color:#90a4ae;
+}
+
+#section{
+    display: flex;
+}
+
+#section #right{
+    margin-top: 50px;
+}
+#right h2{
+    color:#4e342e;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+
+#right button{
+    color: white;
+    background-color:black;
+    border: none;
+    padding: 15px;
+}
+
+
+#boxes{
+    display: flex;
+    
+}
+
+#box1{
+    color:white;
+    background-color: black;
+    border-top: 4px;
+
+    width: 100%;
+    padding:10px;
+    
+    
+}
+#box2{
+    color:white;
+    background-color: black;
+    border-top: 4px solid orange;
+    
+    width: 100%;
+    padding:10px;
+    
+    
+}
+#box3{
+    color:white;
+    background-color: black;
+    border-top: 4px solid orange;
+
+    width: 100%;
+    padding:10px;
+    
+    
+}
+#box4{
+    color:white;
+    background-color: black;
+    border-top: 4px solid orange;
+    
+    width: 100%;
+    padding:10px;
+    
+    
+}   
+
+
+
+
+
+#box p{
+    padding: 10px;
+    color: gray
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#footer{
+    
+background-color: #3e2723;
+color: white;
+display: flex;
+
+}
+
+#footer #col{
+    width: 25%;
+    margin-left: 60px;
+}
+#footer button{
+background-color: black;
+color: white;
+padding: 10px;
+font-family: fantasy;
+font-size:medium;
+
+}
+#col ul{
+
+    list-style-type: circle;
+}
+#foot{
+    color:white;
+    background-color: grey;
+}
+#button1{
+color: #3e2723;
+background-color: #3e2723;
+
+}
